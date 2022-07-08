@@ -7,7 +7,6 @@ public class Recursivo {
 	static boolean ehPrimoRecursivo(int n, int i)
     {
  
-        // Base cases
         if (n <= 2) {
             return (n == 2) ? true : false;
         } else if (n % i == 0) {
